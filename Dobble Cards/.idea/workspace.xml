@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7efa78f-b3d9-4b55-82ab-a8c715d088ab" name="Default Changelist" comment="" />
+    <list default="true" id="e7efa78f-b3d9-4b55-82ab-a8c715d088ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Dobble Client/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dobble Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dobble Client/out/production/Dobble Client/META-INF/Dobble Client.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dobble Protocol/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Protocol/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dobble Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dobble Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dobble Server/out/production/Dobble Server/META-INF/Dobble Server.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +51,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -57,6 +68,7 @@
     <option name="width" value="1388" />
     <option name="height" value="783" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -89,6 +101,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -125,16 +138,17 @@
       <workItem from="1567364288776" duration="1208000" />
       <workItem from="1567402150307" duration="636000" />
       <workItem from="1567417394856" duration="9000" />
+      <workItem from="1567606750048" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4049000" />
+    <option name="totallyTimeSpent" value="4063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="35" width="1851" height="1045" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26938093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.273285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
