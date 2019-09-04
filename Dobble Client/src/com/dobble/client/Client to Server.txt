@@ -1,0 +1,49 @@
+HANDSHAKE_______________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.HANDSHAKE
+8	 -> Protocol.CONNECT
+9	 -> Dobble.protocol.getID()
+10	 -> protocolVer
+11	 -> clientVer
+12 13 14 -> 0x62,0x6c,0x65
+
+JOIN_ROOM______________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.ROOM
+8	 -> Protocol.JOIN
+9	 -> nicknamelength
+10-26	 -> nickname
+27 28 29 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.ROOM
+8	 -> Protocol.LEAVE
+9 10 11 -> 0x62,0x6c,0x65
+
+READY______________________________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.RESPONSE
+8	 -> Protocol.READY
+10,11,12 -> 0x62,0x6c,0x65
+
+GAME______________________________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.GAME
+8	 -> Protocol.ANSWER
+9	 -> imageID
+10,11,12 -> 0x62,0x6c,0x65
+
+
+
+
+
+

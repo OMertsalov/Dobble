@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26055ca0-298b-4307-b87f-b78645938a74" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>-1</find>
+      <find>deck</find>
+      <find>addLogInfo</find>
+      <find>message</find>
+      <find>Byte</find>
+      <find>client</find>
+      <find>Client</find>
+      <find>serverCard</find>
+      <find>room</find>
+      <find>Room</find>
+      <find>Started</find>
+      <find>this.</find>
+      <find>setEnabled</find>
+      <find>print</find>
+      <find>To</find>
+      <find>WRONG_PROTOCOL</find>
+      <find>ERROR_WRONG_CLIENT_VERSION</find>
+      <find>WRONG_OP</find>
+      <find>public static final int</find>
+      <find>= 0x</find>
+      <find>CLASSIC</find>
+      <find>REA</find>
+      <find>SUCCESS</find>
+      <find>START</find>
+      <find>restoreData();</find>
+      <find>this</find>
+      <find>System.out.println</find>
+      <find>getROOM_NBR</find>
+      <find>.joinedPlayersNbr()</find>
+      <find>client.getRoom().getMaxPlayers();</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GitHub" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="238" />
+    <option name="y" value="127" />
+    <option name="width" value="1388" />
+    <option name="height" value="783" />
+  </component>
+  <component name="ProjectId" id="1Q2ynzp1sV4cWccC5wISzgWPrf9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitHub/Dobble/Dobble Server" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Oleksandr.Mertsalov.Main" />
+      <module name="Dobble Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oleksandr.Mertsalov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dobble.server.Main" />
+      <module name="Dobble Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dobble.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Dobble Server" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dobble.server.Main" />
+      <module name="Dobble Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dobble.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Oleksandr.Mertsalov.MainProgram.Program" />
+      <module name="Dobble Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oleksandr.Mertsalov.MainProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Oleksandr.Mertsalov.Client.MainProgram.Program" />
+      <module name="Dobble Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oleksandr.Mertsalov.Client.MainProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Program (3)" />
+      <item itemvalue="Application.Program (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Program (1)" />
+        <item itemvalue="Application.Program (3)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26055ca0-298b-4307-b87f-b78645938a74" name="Default Changelist" comment="" />
+      <created>1565180897454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565180897454</updated>
+      <workItem from="1565180921374" duration="12680000" />
+      <workItem from="1565271229765" duration="6493000" />
+      <workItem from="1565351069581" duration="2330000" />
+      <workItem from="1565370932212" duration="15432000" />
+      <workItem from="1565458882035" duration="34000" />
+      <workItem from="1565458996743" duration="607000" />
+      <workItem from="1565509420541" duration="20322000" />
+      <workItem from="1565598289073" duration="23330000" />
+      <workItem from="1565678866747" duration="1255000" />
+      <workItem from="1565764013172" duration="25787000" />
+      <workItem from="1565849090676" duration="20346000" />
+      <workItem from="1565870729578" duration="4328000" />
+      <workItem from="1565944256084" duration="19704000" />
+      <workItem from="1565976601953" duration="6494000" />
+      <workItem from="1566041097746" duration="11912000" />
+      <workItem from="1566103090560" duration="16234000" />
+      <workItem from="1566199542891" duration="11537000" />
+      <workItem from="1566220132277" duration="18586000" />
+      <workItem from="1566283252985" duration="14673000" />
+      <workItem from="1566372611033" duration="13176000" />
+      <workItem from="1566390407736" duration="21405000" />
+      <workItem from="1566451084990" duration="21830000" />
+      <workItem from="1566485679434" duration="10608000" />
+      <workItem from="1566500549848" duration="1311000" />
+      <workItem from="1566546932781" duration="27350000" />
+      <workItem from="1566646920933" duration="24740000" />
+      <workItem from="1566680099018" duration="9338000" />
+      <workItem from="1566724347772" duration="17526000" />
+      <workItem from="1566814828567" duration="28937000" />
+      <workItem from="1566865980374" duration="102000" />
+      <workItem from="1566866177376" duration="3474000" />
+      <workItem from="1566900099355" duration="41001000" />
+      <workItem from="1566983167995" duration="607000" />
+      <workItem from="1566991417509" duration="9788000" />
+      <workItem from="1567091514236" duration="282000" />
+      <workItem from="1567361981385" duration="603000" />
+      <workItem from="1567366019732" duration="3736000" />
+      <workItem from="1567402718009" duration="11568000" />
+      <workItem from="1567417410899" duration="2980000" />
+      <workItem from="1567597912780" duration="708000" />
+      <workItem from="1567605019617" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Dobble_Server$Program__1_.ic" NAME="Program (1) Coverage Results" MODIFIED="1566821897087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.Oleksandr.Mertsalov.MainProgram.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Dobble Server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

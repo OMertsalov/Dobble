@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Dobble Cards/Dobble Cards.iml" filepath="$PROJECT_DIR$/../Dobble Cards/Dobble Cards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Dobble Protocol/Dobble Protocol.iml" filepath="$PROJECT_DIR$/../Dobble Protocol/Dobble Protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dobble Server.iml" filepath="$PROJECT_DIR$/Dobble Server.iml" />
+    </modules>
+  </component>
+</project>

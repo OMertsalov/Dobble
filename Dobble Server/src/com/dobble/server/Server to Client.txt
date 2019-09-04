@@ -1,0 +1,183 @@
+PACKET_______________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.PACKET_DATA
+8	 -> Protocol.ERROR
+9	 -> Protocol.PACKET_LENGTH
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.PACKET_DATA
+8	 -> Protocol.ERROR
+9	 -> Protocol.PACKAGE_SYNTAX
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.PACKET_DATA
+8	 -> Protocol.ERROR
+9	 -> Protocol.WRONG_OPTION
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.PACKET_DATA
+8	 -> Protocol.ERROR
+9	 -> Protocol.FIELD
+10,11,12 -> 0x62,0x6c,0x65
+
+HANDSHAKE_______________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.HANDSHAKE
+8	 -> Protocol.ERROR
+9	 -> Protocol.PROTOCOL
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.HANDSHAKE
+8	 -> Protocol.ERROR
+9	 -> Protocol.PROTOCOL_VERSION
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.HANDSHAKE
+8	 -> Protocol.ERROR
+9	 -> Protocol.CLIENT_VERSION
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.HANDSHAKE
+8	 -> Protocol.CONNECT
+9	 -> Protocol.SUCCESS
+10,11,12 -> 0x62,0x6c,0x65
+
+JOIN_ROOM______________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.ROOM
+8	 -> Protocol.ERROR
+9	 -> Protocol.NICKNAME
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.ROOM
+8	 -> Protocol.ERROR
+9	 -> Protocol.ROOMS_ARE_FULL
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.ROOM
+8	 -> Protocol.JOIN
+9	 -> room nbr
+10	 -> game id
+11	 -> max players
+12	 -> "playerID|nickname\nplayerIDnickname\n"
+13,14,15 -> 0x62,0x6c,0x65
+
+IF SOMEONE JOINED ROOM
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.ROOM
+8	 -> Protocol.NEW_PLAYER
+9	 -> "playerID|nickname\n"
+10,11,12 -> 0x62,0x6c,0x65
+
+IF SOMEONE LEAVE ROOM
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.ROOM
+8	 -> Protocol.PLAYER_LEAVE
+9	 -> playerID
+10,11,12 -> 0x62,0x6c,0x65
+
+READY______________________________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.REQUEST
+8	 -> Protocol.READY
+9,10,11 -> 0x62,0x6c,0x65
+
+IF YOU NOT READY
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.REQUEST
+8	 -> Protocol.ERROR
+9	 -> Protocol.NOT_READY
+10,11,12 -> 0x62,0x6c,0x65
+
+GAME______________________________________________________________
+
+IF GAME NOT STARTED
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.GAME
+8	 -> Protocol.NOT_STARTED
+9,10,11 -> 0x62,0x6c,0x65
+
+IF STARTED
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.GAME
+8	 -> Protocol.START
+9	 -> amountOfCard
+10,11,12 -> 0x62,0x6c,0x65
+
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.GAME
+8	 -> Protocol.CLIENT_CARD
+9	 -> ImageOnCard(object)
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.GAME
+8	 -> Protocol.SERVER_CARD
+9	 -> Image(file)
+10,11,12 -> 0x62,0x6c,0x65
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.GAME
+8	 -> Protocol.ANSWERED
+9	 -> playerID
+10,11,12 -> 0x62,0x6c,0x65
+
+END_GAME___________________________________________________________
+
+0 1 2 	 -> 0x64,0x6f,0x62
+3 4 5 6	 -> length
+7	 -> Protocol.GAME
+8	 -> Protocol.END
+9	 -> resultTable"id1\nid2\n"
+10,11,12 -> 0x62,0x6c,0x65
+
+DISCONECT ALL
+
+
+(OPTION FIELD STRING)
+OPTION FIELD STRING (id nickname)
+OPTION FIELD INT
+OPTION FIELD Byte
+OPTION FIELD INT INT INT INT STRING(id nickname)
+OPTION FIELD Image(file)
+OPTION FIELD ImageOnCard(object)
+
+

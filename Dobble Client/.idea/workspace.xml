@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ccef0f09-1772-484f-81d6-2f181fbbce4a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Messaging/MsgReciever.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="125" column="62" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Messaging/MsgSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Client</find>
+      <find>DBLprot</find>
+      <find>AS</find>
+      <find>Syste</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/GUI/Game/ImageButton.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Card/ImageOnCard.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/MainProgram/Program.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/GUI/Game/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/GUI/Menu/OptionsView.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/GUI/Menu/PrepareView.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Card/Card.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Protocol/DBLprot.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Protocol/DBLgame.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/GUI/Menu/MenuView.java" />
+        <option value="$PROJECT_DIR$/../Cards/src/com/Oleksandr/Mertsalov/ImageOnCard.java" />
+        <option value="$PROJECT_DIR$/../Cards/src/com/Oleksandr/Mertsalov/DeckOfCards.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/GUI/Game/GameView.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Messaging/MsgReciever.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/GUI/ErrorView.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Messaging/MsgSender.java" />
+        <option value="$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/MainProgram/Dobble.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/GUI/Game/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/MainProgram/Program.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/MainProgram/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/GUI/Game/GameView.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/GUI/Menu/OptionsView.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/GUI/Menu/MenuView.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/Messaging/MsgSender.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/GUI/Menu/PrepareView.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/GUI/ErrorView.java" />
+        <option value="$PROJECT_DIR$/src/com/dobble/client/Messaging/MsgReciever.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="238" />
+    <option name="y" value="127" />
+    <option name="width" value="1388" />
+    <option name="height" value="783" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="Messaging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dobble Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dobble Client" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="ImagesOnCards" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dobble Protocol/Dobble Protocol.iml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dobble.client.Main" />
+      <module name="Dobble Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dobble.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Oleksandr.Mertsalov.MainProgram.Program" />
+      <module name="Dobble Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oleksandr.Mertsalov.MainProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Cards" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Cards" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Program" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccef0f09-1772-484f-81d6-2f181fbbce4a" name="Default Changelist" comment="" />
+      <created>1566675878841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566675878841</updated>
+      <workItem from="1566675883621" duration="244000" />
+      <workItem from="1566677121869" duration="2277000" />
+      <workItem from="1566679407051" duration="622000" />
+      <workItem from="1566680181848" duration="2476000" />
+      <workItem from="1566729517533" duration="6060000" />
+      <workItem from="1566809942493" duration="45983000" />
+      <workItem from="1566865865971" duration="221000" />
+      <workItem from="1566866160069" duration="3641000" />
+      <workItem from="1566899691244" duration="26091000" />
+      <workItem from="1566995592685" duration="9111000" />
+      <workItem from="1567081847986" duration="28000" />
+      <workItem from="1567165154802" duration="130000" />
+      <workItem from="1567165972787" duration="1168000" />
+      <workItem from="1567361976275" duration="603000" />
+      <workItem from="1567368236347" duration="2981000" />
+      <workItem from="1567402192624" duration="6949000" />
+      <workItem from="1567417446777" duration="2910000" />
+      <workItem from="1567596113977" duration="940000" />
+      <workItem from="1567597808160" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="112461000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="69" y="35" width="1851" height="1045" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.3234802" />
+      <window_info id="Structure" order="1" sideWeight="0.5033557" side_tool="true" weight="0.27384272" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295838" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.30897936" />
+      <window_info id="Structure" order="1" sideWeight="0.5033557" side_tool="true" weight="0.27384272" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295838" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="1285" selection-start-line="1285" selection-end-line="1285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/JPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="124" column="16" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
+          <folding>
+            <element signature="e#3319#3320#0" expanded="true" />
+            <element signature="e#3372#3373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Card/ImageOnCard.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Card/Card.java" />
+    <entry file="file://$PROJECT_DIR$/../Dobble Server/src/com/Oleksandr/Mertsalov/Cards/Card.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dobble Server/src/com/Oleksandr/Mertsalov/Cards/ImageOnCard.java" />
+    <entry file="file://$PROJECT_DIR$/../Dobble Server/src/com/Oleksandr/Mertsalov/Cards/Cards.iml" />
+    <entry file="file://$PROJECT_DIR$/../Dobble Server/src/com/Oleksandr/Mertsalov/Cards/DeckOfCards.java" />
+    <entry file="file://$PROJECT_DIR$/../Cards/src/com/Oleksandr/Mertsalov/DeckOfCards.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Protocol/DBLgame.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Oleksandr/Mertsalov/Protocol/DBLprot.java" />
+    <entry file="file://$PROJECT_DIR$/../Cards/src/com/Oleksandr/Mertsalov/ImageOnCard.java" />
+    <entry file="file://$PROJECT_DIR$/../Dobble Protocol/src/com/dobble/protocol/DBLprot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dobble Protocol/src/com/dobble/protocol/DBLgame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/GUI/Game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/GUI/Game/ImageButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/GUI/Menu/MenuView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dobble Client.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="667" column="40" selection-start-line="667" selection-start-column="40" selection-end-line="667" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="3409" column="18" selection-start-line="3409" selection-start-column="18" selection-end-line="3409" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dobble Cards/src/com/dobble/cards/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" selection-start-line="5" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/GUI/Menu/PrepareView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="164" column="52" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="99" column="14" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+            <element signature="e#3197#3198#0" expanded="true" />
+            <element signature="e#3234#3235#0" expanded="true" />
+            <element signature="e#3286#3287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/GUI/Game/GameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/GUI/Menu/OptionsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Client to Server.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/GUI/ErrorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="108" column="25" lean-forward="true" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Messaging/MsgSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dobble/client/Messaging/MsgReciever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="125" column="62" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Dobble Client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
