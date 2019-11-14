@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7efa78f-b3d9-4b55-82ab-a8c715d088ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Dobble Client/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dobble Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dobble Client/out/production/Dobble Client/META-INF/Dobble Client.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dobble Protocol/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Protocol/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dobble Server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Server/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dobble Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dobble Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dobble Server/out/production/Dobble Server/META-INF/Dobble Server.kotlin_module" beforeDir="false" />
-    </list>
+    <list default="true" id="e7efa78f-b3d9-4b55-82ab-a8c715d088ab" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,8 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,6 +88,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,16 +131,17 @@
       <workItem from="1567402150307" duration="636000" />
       <workItem from="1567417394856" duration="9000" />
       <workItem from="1567606750048" duration="14000" />
+      <workItem from="1568622825152" duration="861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4063000" />
+    <option name="totallyTimeSpent" value="4924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="35" width="1851" height="1045" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.273285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27718908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
