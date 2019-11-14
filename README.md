@@ -97,14 +97,14 @@ Przykładowy pakiet wyglądą następująco:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
- 0 1 2 | 0x64,0x6f,0x
+ 0 1 2 | 0x64,0x6f,0x62
  3 4 5 6|length
  7| HANDSHAKE
  8| CONNECT
  9|protocol_id
  10|prtocol_version
  11|client_version
- 12 13 14| 0x62,0x6c,0x
+ 12 13 14| 0x62,0x6c,0x65
 
 
 <br />
@@ -126,12 +126,12 @@ programu, to odpowie:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | HANDSHAKE
 8 | CONNECT
 9 | SUCCESS
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 
 <br />
 
@@ -148,13 +148,13 @@ typu «ROOM» :
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | ROOM
 8 | JOIN
 9 | nickname_length
 10-26 | nickname
-27 28 29 | 0x62,0x6c,0x
+27 28 29 | 0x62,0x6c,0x65
 <br />
 
 W typ pakiecie klient przesyła swój _nickname_ , który może posiadać znaki z tablicy ASCII
@@ -169,7 +169,7 @@ pakietem :
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | ROOM
 8 | JOIN
@@ -177,7 +177,7 @@ nmr.bajtu | przeznaczenie
 10 | game_id
 11 | max_players
 12-? | players_info
-?,?,? | 0x62,0x6c,0x
+?,?,? | 0x62,0x6c,0x65
 <br />
 
 Gdzie :
@@ -199,12 +199,12 @@ wiadomość od serwera.Przykłądowo:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | ROOM
 8 | NEW_PLAYER
 9-? | player_info
-?,?,? | 0x62,0x6c,0x
+?,?,? | 0x62,0x6c,0x65
 
 _player_info_ — informacja o nowym uczestniku.Informacja jest typu String, w formacie
 «klientID\rklientNickname\n».
@@ -216,12 +216,12 @@ Kiedy klient opuści pokój, wszyscy uczestniki otrzymają wiadomość:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | ROOM
 8 | PLAYER_LEAVE
 9 | playerID
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 <br />
 
@@ -234,11 +234,11 @@ sprawdzić ich gotowność, serwer wysyła żądanie :
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | REQUEST
 8 | READY
-9,10,11 | 0x62,0x6c,0x
+9,10,11 | 0x62,0x6c,0x65
 <br />
 <br />
 
@@ -248,11 +248,11 @@ wygłądał :
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | RESPONSE
 8 | READY
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 
 W protokolach DBLprot tyłko te dwa pakiety nie mają pola dła danych.
@@ -267,12 +267,12 @@ Gra się zaczyna, gdy serwer wyśli do wszystkich użytkowników pokoju pakiet :
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | GAME
 8 | START
 9 | amount_of_card
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 
 Bajt nr. 9 odpowiada za ilość kart, który serwer wydał każdemu klientu. Gra trwa do póki w
@@ -288,12 +288,12 @@ Serwer wysyła każdemu uczestniku gry, po jednej karcie:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | GAME
 8 | CLIENT_CARD
 9-? | Card
-?,?,? | 0x62,0x6c,0x
+?,?,? | 0x62,0x6c,0x65
 <br />
 
 W tym pakiecie, karta reprezentowana jako obiekt classy « _Card_ ». Każda karta w sobie
@@ -308,12 +308,12 @@ kartą serwera:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | Protocol.GAME
 8 | Protocol.SERVER_CARD
 9-? | Card
-?,?,? | 0x62,0x6c,0x
+?,?,? | 0x62,0x6c,0x65
 <br />
 <br />
 
@@ -322,12 +322,12 @@ Każdy z uczestników może przesłać swoją odpowiedż reprezentowana, jako nu
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | GAME
 8 | ANSWER
 9 | imageID
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 <br />
 
@@ -337,12 +337,12 @@ będzie zaakceptowana i serwer wyśli do wszystkich , id uczestnika który był 
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | GAME
 8 | ANSWERED
 9 | playerID
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 <br />
 
@@ -351,12 +351,12 @@ Gra się kończy wysłąniem z serwera do wszystkich uczestników pakietu :
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | GAME
 8 | END
 9 | result_table
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 
 _result_table_ — String w formacie «id1\nid2\nid3\nid4\n».
@@ -372,12 +372,12 @@ W przypadku gdy klient przesłal nie poprawny pakiet , serwer odpowie:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | PACKET_DATA
 8 | ERROR
 9 | kod_odpowiedzi
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 
 kod_odpowiedzi:
@@ -394,12 +394,12 @@ W przypadku gdy jest probłem z pakietem HANDSHAKE:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | HANDSHAKE
 8 | ERROR
 9 | kod_odpowiedzi
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 
 kod_odpowiedzi:
@@ -418,12 +418,12 @@ W przypadku problemów z dodawaniem klienta do pokoju:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | ROOM
 8 | ERROR
 9 | kod_odpowiedzi
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 
 kod_odpowiedzi:
@@ -440,12 +440,12 @@ W przypadku nie gotowności klienta do rozpoczecią gry:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | REQUEST
 8 | ERROR
 9 | NOT_READY(0x36)
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
 <br />
 <br />
 
@@ -454,9 +454,9 @@ W przypadku gdy gra się nie zaczeła:
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
-0 1 2 | 0x64,0x6f,0x
+0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
 7 | GAME
 8 | ERROR
 9 | NOT_STARTED(0x51)
-10,11,12 | 0x62,0x6c,0x
+10,11,12 | 0x62,0x6c,0x65
