@@ -204,7 +204,7 @@ nmr.bajtu | przeznaczenie
 7 | ROOM
 8 | NEW_PLAYER
 9-? | player_info
-?,?,? -> 0x62,0x6c,0x
+?,?,? | 0x62,0x6c,0x
 
 _player_info_ — informacja o nowym uczestniku.Informacja jest typu String, w formacie
 «klientID\rklientNickname\n».
