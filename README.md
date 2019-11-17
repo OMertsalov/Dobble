@@ -4,12 +4,12 @@
 <br />
 <br />
 
-### Opis programu
+### Opis aplikacji
 <br />
 
-- Klienci - łączą się z serwerem , wysylają pakiet typu «HANDSHAKE», podłączają
-    się do wolnego pokoju, czekają aż póki on się nie zapełni, grają razem.
-- Serwer — zarządza grami klientów, w danej chwili może być prowadzonych kilka
+- Klienci - łączą się z serwerem , wysyłają pakiet typu «HANDSHAKE», podłączają
+    się do pokoju, aż póki on się nie zapełni, grają razem.
+- Serwer — zarządza grami klientów, w danej chwili mogą być prowadzone kilka
     gier.
 
 ### ____________
@@ -18,10 +18,10 @@
 ### Mechanizmy:
 <br />
 
-- Zarówno klient jak i serwer, określają protokół przesyłu danych
+- Zarówno klient, jak i serwer, określają protokół przesyłu danych
 - Serwer przez cały czas swojego działania zapisuje do logów informacje o aktualnym
     zdarzeniu (połączył się klient - z jakim IP, portem, ...)
-- Serwer i klient powinni obsługują protokół IPv4 oraz IPv
+- Serwer i klient powinni obsługiwać protokół IPv4 oraz IPv6
 - Zaimplementowana logika, wykorzystuje więcej niż 3 rodzaje przesyłanych wiadomości
 - Synchronizacja wątków
 - Serwer obsługuje 2+ graczy jednocześnie
@@ -34,8 +34,8 @@
 #### 1.1 Ogólny format pakietów
 <br />
 
-Protokól « _DBLgame_ » użuwany w komunikacji między serwerem, a klientem pochodzi z
-rodziny protokolów « _DBLprot_ » przyznaczonej dla tej gry. DBLprot korzysta z protokołu
+Protokól « _DBLgame_ » używany w komunikacji między serwerem, a klientem pochodzi z
+rodziny protokołów « _DBLprot_ » przyznaczonej dla tej gry. DBLprot korzysta z protokołu
 TCP/IP.
 <br />
 Wszystkie teksty są kodowane przy użyciu zestawu znaków UTF-8.Przy opisie struktur,
@@ -45,16 +45,16 @@ założono, że char ma rozmiar 1 bajtu ,a int 4 bajtów.
 _Każdy pakiet zawiera :_
 
 1. Trzy stałe bajty, które oznaczają początek wiadomości <0x64,0x6f,0x62>.
-2. Cztery bajty, reprezentujące rozmiar pakietu(czyli int).Maksymalny rozmiar, to
+2. Cztery bajty, reprezentujące rozmiar pakietu(czyli int).Maksymalny rozmiar to
     166kb.
 3. « _Header_ », zajmuje 1bajt i odpowiada za ogólne przyznaczenie pakietu.
-4. « _Field_ », zajmuje 1bajt i odpowiada za szczególowe przyznaczenie pakietu.
-5. Dane.( _W zależności od pola «Field» mogą być reprzezentowane w róznych_
-    _formatach._ )
+4. « _Field_ », zajmuje 1bajt i odpowiada za szczegółowe przyznaczenie pakietu.
+5. (Opcjonalnie)Dane.( _W zależności od pola «Field» mogą być reprzezentowane w róznych_
+    _formatach._)
 6. Trzy stałe bajty które oznaczają koniec wiadomości <0x62,0x6c,0x65>.
 
 ### ____________
-* Jeśli polączyć pierwsze 3 bajty i ostatnie 3, to dostaniemy slowo dobble(nazwa gry).
+* Jeśli połączyć pierwsze 3 bajty i ostatnie 3, to dostaniemy słowo dobble(nazwa gry).
 <br />
 
 #### 1.2 Możliwe wartości dla pól Header i Field
@@ -91,7 +91,7 @@ FIELD : START(0x52),CLIENT_CARD(0x53),SERVER_CARD(0x54),ANSWER(0x55),ANSWERED(0x
 ####  2.1 Option HANDHSAKE
 <br />
 
-Pierwszy pakiet który serwer może odebrać od klienta jest pakiet typu « _Handshake_ ».
+Najpierw, Klient wysyła do Serwera pakiet typu « _Handshake_ ».
 Przykładowy pakiet wyglądą następująco:
 <br />
 
@@ -111,7 +111,7 @@ nmr.bajtu | przeznaczenie
 Gdzie :
 
 - _protocol_id_ — wybór protokołu.W tym momencie « _DBLprot»_ posiada tylko jeden
-    protokól, który jest wykorzystany w grze(czyli « _DBLgame_ »), przypisana mu wartość
+    protokól, który jest wykorzystywany w grze(czyli « _DBLgame_ »), przypisana mu wartość
     «1»;
 - _protocol_version_ — wersja protokołu używanego przez klienta. « _DBLgame_ » jest w
     wersji «1.0». W postaci bajtowej ma wartość «0x10».
@@ -120,8 +120,8 @@ Gdzie :
 <br />
 <br />
 
-Jeśli serwer obsluguje taki protokól , w takiej samej wersji i klient używa najnowszej wersji
-programu, to odpowie:
+Jeśli serwer obsluguje ten protokół i wersję, a klient używa najnowszej wersji
+programu, to odpowie klientowi:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -135,14 +135,14 @@ nmr.bajtu | przeznaczenie
 
 <br />
 
-W tym pakiecie, « _Dane_ » , to kod odpowiedżi, który zajmuje 1 bajt.
+W tym pakiecie, « _Dane_ » , to kod odpowiedzi, który zajmuje 1 bajt.
 <br />
 <br />
 
 #### 2.2 Option ROOM
 <br />
 
-Żeby dolączyć się do pokoju,w którym będzię prowadzana gra, klient muśi wysłac pakiet
+Żeby dołączyć się do pokoju,w którym będzie prowadzona gra, klient musi wysłac pakiet
 typu «ROOM» :
 <br />
 
@@ -158,11 +158,11 @@ nmr.bajtu | przeznaczenie
 <br />
 
 W typ pakiecie klient przesyła swój _nickname_ , który może posiadać znaki z tablicy ASCII
-w przedziałie [0x20,0x7e) oraz dlugość tego pola w przedzilie [0x03,0x10].
+w przedziale [0x20,0x7e) oraz długość tego pola w przedziale [0x03,0x10].
 <br />
 <br />
 
-Jeśli nickname jest poprawny i jest pokój do którego można dodać klienta serwer odpowie
+Jeśli nickname jest poprawny i jest pokój do którego można dodać klienta, serwer odpowie
 pakietem :
 
 <br />
@@ -183,25 +183,25 @@ nmr.bajtu | przeznaczenie
 Gdzie :
 
 - _room_nbr_ — numer pokoju do którego będzie dodany klient.
-- _game_id_ — id gry.Ta wartość, będzie zmieniała się, w załeżności od ilośći
+- _game_id_ — id gry.Ta wartość będzie się zmieniać w zależności od ilośći
     prowadzonych gier w pokoju .(Tzn. Pierwsza gra ma id=1,druga id=2 ... i td.).
-- _max_players_ — ile osób maksymalnie może być podłączono do tego pokoju.
-- _players_info_ — informacja o podłącząnych do tego pokoju klientów. Informacja jest
+- _max_players_ — ile osób maksymalnie może być podłączonych do tego pokoju.
+- _players_info_ — informacja o podłączonych do tego pokoju klientów. Informacja jest
     typu String, w formacie «1klientID\r1klientNickname\n2klientID\r2klientNickname\
-    n».Klient odejmuje od długości calego pakietu 3 ostatnie bajty ,żeby wiedzić ile
-    bajtów zajmuję to pole.
+    n».Klient odejmuje od długości całego pakietu 3 ostatnie bajty ,żeby wiedzić, ile
+    bajtów zajmuje to pole.
 <br />
 <br />
 
-Kiedy klient zośtał dodany do pokoju,wszyscy uczestniki w tym pokoju otrzymają
-wiadomość od serwera.Przykłądowo:
+Kiedy klient został dodany do pokoju, wszyscy uczestnicy w tym pokoju otrzymają
+wiadomość od serwera:
 <br />
 
 nmr.bajtu | przeznaczenie
 ------------ | -------------
 0 1 2 | 0x64,0x6f,0x62
 3 4 5 6 | length
-7 | ROOM
+7 | ROOM 
 8 | NEW_PLAYER
 9-? | player_info
 ?,?,? | 0x62,0x6c,0x65
@@ -211,7 +211,7 @@ _player_info_ — informacja o nowym uczestniku.Informacja jest typu String, w f
 <br />
 <br />
 
-Kiedy klient opuści pokój, wszyscy uczestniki otrzymają wiadomość:
+Kiedy klient opuści pokój, wszyscy uczestnicy otrzymają wiadomość:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -228,7 +228,7 @@ nmr.bajtu | przeznaczenie
 #### 2.3 Option REQUEST , RESPONSE
 <br />
 
-Gra się zaczyna, kiedy w pokoju jest maksymalna liczba klientów i wszyscy są gotowi.Zeby
+Gra się zaczyna wtedy, gdy w pokoju jest maksymalna liczba klientów i wszyscy są gotowi. Aby
 sprawdzić ich gotowność, serwer wysyła żądanie :
 <br />
 
@@ -242,7 +242,7 @@ nmr.bajtu | przeznaczenie
 <br />
 <br />
 
-Od uzytkownika załeży ,czy wyślę klient odpowiedż, czy nie. Jeśli tak to pakiet będzie
+Od użytkownika zależy ,czy wyśle klient odpowiedź, czy nie. Jeśli tak, to pakiet będzie
 wygłądał :
 <br />
 
@@ -255,7 +255,7 @@ nmr.bajtu | przeznaczenie
 10,11,12 | 0x62,0x6c,0x65
 <br />
 
-W protokolach DBLprot tyłko te dwa pakiety nie mają pola dła danych.
+W protokołach DBLprot tylko te dwa pakiety nie mają pola dla danych.
 <br />
 <br />
 
@@ -275,7 +275,7 @@ nmr.bajtu | przeznaczenie
 10,11,12 | 0x62,0x6c,0x65
 <br />
 
-Bajt nr. 9 odpowiada za ilość kart, który serwer wydał każdemu klientu. Gra trwa do póki w
+Bajt nr. 9 odpowiada za ilość kart, który serwer wydał każdemu klientu. Gra trwa dopóki w
 pokoju nie zostanie jeden klient z kartami.
 <br />
 <br />
@@ -283,7 +283,7 @@ pokoju nie zostanie jeden klient z kartami.
 #### 2.4.2 Proces gry
 <br />
 
-Serwer wysyła każdemu uczestniku gry, po jednej karcie:
+Serwer wysyła każdemu uczestniku gry po jednej karcie:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -297,12 +297,12 @@ nmr.bajtu | przeznaczenie
 <br />
 
 W tym pakiecie, karta reprezentowana jako obiekt classy « _Card_ ». Każda karta w sobie
-zawiera numer i listę obrazków, które są na niej. Każdy obrazek, to klasa, która zawiera
-numer i śćieżke do obrazku na urządzeniu klienta.
+zawiera numer i listę obrazków, które są na niej. Każdy obrazek to klasa, która zawiera
+numer i ścieżkę do obrazku na urządzeniu klienta.
 <br />
 <br />
 
-Następnie serwer wysyłą do wszystkich uczestników gry, ten sam obrazek(plik) który jest
+Następnie serwer wysyła do wszystkich uczestników gry ten sam obrazek(plik), który jest
 kartą serwera:
 <br />
 
@@ -317,7 +317,7 @@ nmr.bajtu | przeznaczenie
 <br />
 <br />
 
-Każdy z uczestników może przesłać swoją odpowiedż reprezentowana, jako numer obrazku:
+Każdy z uczestników może przesłać swoją odpowiedź reprezentowaną jako numer obrazku:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -331,8 +331,8 @@ nmr.bajtu | przeznaczenie
 <br />
 <br />
 
-Jeśli obrazek na który wskazał klient jest wsród obrazków karty serwera to wtedy ta karta
-będzie zaakceptowana i serwer wyśli do wszystkich , id uczestnika który był pierwszy:
+Jeśli obrazek, na który wskazał klient jest wsród obrazków karty serwera, to wtedy karta klienta
+zostanie zaakceptowana i zadaniem serwera jest poinformowanie  id uczestnika, który był pierwszy:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -346,7 +346,7 @@ nmr.bajtu | przeznaczenie
 <br />
 <br />
 
-Gra się kończy wysłąniem z serwera do wszystkich uczestników pakietu :
+Gra się kończy wysłaniem z serwera do wszystkich uczestników pakietu :
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -364,10 +364,10 @@ _result_table_ — String w formacie «id1\nid2\nid3\nid4\n».
 <br />
 
 
-####  3.0 Obsluga blędów
+####  3.0 Obsługa blędów
 <br />
 
-W przypadku gdy klient przesłal nie poprawny pakiet , serwer odpowie:
+W przypadku gdy klient przesłał niepoprawny pakiet , serwer odpowie:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -382,14 +382,14 @@ nmr.bajtu | przeznaczenie
 
 kod_odpowiedzi:
 
-- PACKET_LENGTH(0x16) — dlugość pakietu jest nie poprawna
-- PACKAGE_SYNTAX(0x17) — pakiet nie jest standartem DBLprot
-- OPTION(0x18) — nie prawidlowe pole OPTION
-- FIELD(0x19) — nie prawidlowe pole FIELD
+- PACKET_LENGTH(0x16) — długość pakietu jest niepoprawna
+- PACKAGE_SYNTAX(0x17) — pakiet nie jest standardem DBLprot
+- OPTION(0x18) — nieprawidłowe pole OPTION
+- FIELD(0x19) — nieprawidłowe pole FIELD
 <br />
 <br />
 
-W przypadku gdy jest probłem z pakietem HANDSHAKE:
+W przypadku gdy jest problem z pakietem HANDSHAKE:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -404,9 +404,9 @@ nmr.bajtu | przeznaczenie
 
 kod_odpowiedzi:
 
-- PROTOCOL(0x27) — klient żada komunikować używając protokól nieznany dłą
+- PROTOCOL(0x27) — klient żąda komunikować się, używając protokółu nieznanego dla 
     serwera.
-- PROTOCOL_VERSION(0x28) — klient używa wersji protokolu której serwer nie
+- PROTOCOL_VERSION(0x28) — klient używa wersji protokółu, której serwer nie
     posiada.
 - CLIENT_VERSION(0x29) — klient ma starszą wersją programu.
 
@@ -428,14 +428,14 @@ nmr.bajtu | przeznaczenie
 
 kod_odpowiedzi:
 
-- NICKNAME_LENGTH(0x46) — długość nickname jest nie poprawna.
+- NICKNAME_LENGTH(0x46) — długość nickname jest niepoprawna.
 - NICKNAME_CHARACHTERS(0x47) — nickname posiada niedozwolone znaki.
-- ROOMS_ARE_FULL(0x48) — nie ma możliwości dołaczyć klienta pokoju, bo
+- ROOMS_ARE_FULL(0x48) — nie ma możliwości dołączyć klienta pokoju, bo
     wszyscy są zajęte.
 <br />
 <br />
 
-W przypadku nie gotowności klienta do rozpoczecią gry:
+W przypadku niegotowności klienta do rozpoczecią gry:
 <br />
 
 nmr.bajtu | przeznaczenie
@@ -449,7 +449,7 @@ nmr.bajtu | przeznaczenie
 <br />
 <br />
 
-W przypadku gdy gra się nie zaczeła:
+W przypadku gdy gra się nie zaczęła:
 <br />
 
 nmr.bajtu | przeznaczenie
