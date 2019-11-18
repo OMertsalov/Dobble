@@ -7,9 +7,6 @@
 ### Opis aplikacji
 <br />
 
-Java SE multiplayer game. 52 card's, related to "Shopping" , allow you to play with 5 players in one session. Every user, could choose ip-version to connect with and set up own Nickname. Whole project is composed of "Server", "Client with GUI" ,"Cards" and "Protocol" that was specifically designed for it.
-
-<br />
 
 - Klienci - łączą się z serwerem , wysyłają pakiet typu «HANDSHAKE», podłączają
     się do pokoju, aż póki on się nie zapełni, grają razem.
